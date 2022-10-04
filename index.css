@@ -9,7 +9,7 @@ body{
 
 .container0{
     height: 95vh;
-    background-image: url(../IMAGES/45.jpg);
+    background-image: url(./45.jpg);
     background-size: cover;
     margin-bottom: 69px;
 }
@@ -26,6 +26,7 @@ body{
     background-color: rgb(20 18 38);
     height: 100%;
     padding: 1rem;
+    margin: 0px 444px;
 }
 
 .cnt1{ 
@@ -75,7 +76,7 @@ body{
 
 .grid-item{
     border: 1.5px solid black;
-    background-image: url(../IMAGES/grid\ sample.jpg);
+    background-image: url(grid\ sample.jpg);
     background-size: cover;
     transition: transform .1s;
 }
@@ -96,10 +97,14 @@ body{
     font-size: 21px;
 }
 
+.crimes_name a:hover{
+    font-weight: 900;
+    color: powderblue;
+}
+
 a:hover{
     color: red;
 }
-
 
 .gov,.prop ,.person{
     text-align: center;
